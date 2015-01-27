@@ -1,0 +1,36 @@
+<extension id="com.dicelocksecurity.jhashdigester" version="5.0.0.1"
+           esdk-version="1.0"
+           rsbundle-class="com.dicelocksecurity.jhashdigester.Res"
+           xmlns="http://jcp.org/jsr/198/extension-manifest">
+  <name>${EXTENSION_NAME}</name>
+  <owner>DiceLock Security, LLC</owner>
+  <hooks>
+    <!-- TODO Declare functionality provided by the com.dicelocksecurity.jhashdigester extension. -->
+    <feature-hook>
+      <copyright>Copyright 2011 DiceLock Security, LLC
+All rights reserved.
+
+DICELOCK IS A REGISTERED TRADEMARK OR TRADEMARK OF THE OWNERS.</copyright>
+      <license>THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESSED OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+REGENTS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</license>
+      <description>Java extension implementing hash algorithms like:
+    * Sha 1,
+    * Sha 224,
+    * Sha 256,
+    * Sha 384,
+    * Sha 512,
+    * Ripemd 128,
+    * Ripemd 160,
+    * Ripemd 256,
+    * Ripemd 320.</description>
+    </feature-hook>
+  </hooks>
+</extension>
